@@ -7,8 +7,8 @@ body {
 }
 
 .mobile-view {
-    height: 736px;
-    width: 414px;
+    height: 100%;
+    width: 100%;
     overflow: scroll;
 }
 
