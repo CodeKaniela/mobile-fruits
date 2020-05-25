@@ -1,3 +1,17 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-view {
+    height: 736px;
+    width: 414px;
+    overflow: scroll;
+}
+
 html {
     font-family: 'Roboto', sans-serif !important;
 }
@@ -34,6 +48,12 @@ html {
 .bg-orangeFade {
     background:#ffdbc5;
 }
+
+.bg-orange {
+    background:#fb9557;
+}
+
+
 
 .barre {
     text-decoration: line-through;
@@ -81,6 +101,8 @@ html {
     border-radius: 25px;
     border-top-right-radius: 0;
     font-size: 1.2rem;
+    position: sticky;
+    bottom: 2%;
 }
 
 .btn-cart {
@@ -93,4 +115,12 @@ html {
 
 .border-badge {
     border: rgb(192, 192, 192) solid 1px;
+}
+
+.font-lg {
+    font-size: 1.6rem;
+}
+
+.font-sm {
+    font-size: 0.8rem;
 }
