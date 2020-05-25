@@ -1,0 +1,96 @@
+html {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.border-radiu-items {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.border-radiu-badge {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.bg-beige {
+    background: #fff1c7;
+}
+
+.bg-bleu {
+    background: #dfebf7;
+}
+
+.bg-vert {
+    background: #e2f2c5;
+}
+
+.bg-mauve {
+    background: 
+    #f5def8;
+}
+
+.bg-orangeFade {
+    background:#ffdbc5;
+}
+
+.barre {
+    text-decoration: line-through;
+}
+
+.add-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.remove-item {
+    position: absolute;
+    top: 41px;
+    right: 0;
+    border-bottom-left-radius: 20px;
+}
+
+.bg-fade {
+    background: rgba(255, 255, 255, 0.5);
+
+}
+
+.like-item {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 20px;
+}
+
+.card-item {
+    position: relative;
+}
+
+.icon-color {
+    color: #707070;
+}
+
+.p-2-5 {
+    padding: .75rem !important;
+}
+
+.cart {
+    background: #86cc86;
+    border-radius: 25px;
+    border-top-right-radius: 0;
+    font-size: 1.2rem;
+}
+
+.btn-cart {
+    background: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 1.05rem;
+}
+
+.border-badge {
+    border: rgb(192, 192, 192) solid 1px;
+}
